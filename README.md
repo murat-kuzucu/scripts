@@ -6,3 +6,34 @@
 - When the victim opens the HTML file, JavaScript decodes the Base64 data.
 - The script converts the data into a blob object and creates a download link dynamically.
 - The file is then downloaded and executed on the victim’s machine if they interact with it.
+
+# SMTP Payload Sender
+A simple SMTP tool for sending payload attachments during penetration testing.
+
+## How It Works
+2. Make it executable:
+```bash
+chmod +x smtp-sender.py
+```
+3. Run:
+```bash
+./smtp-sender.py
+```
+## Usage Example
+```bash
+=== Email Configuration ===
+Sender Email: admin@target.com
+Target Email: user@target.com
+Email Subject: Security Update Required
+
+Email Content: 
+Please install this critical security update.
+[Press Enter twice to finish]
+
+Payload file path: /path/to/payload.exe
+Fake filename: security_update.exe
+
+=== SMTP Server Configuration ===
+SMTP Server: mail.target.com
+SMTP Port [25]: 25
+```
