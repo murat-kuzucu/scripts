@@ -11,13 +11,9 @@
 A simple SMTP tool for sending payload attachments during penetration testing.
 
 ## How It Works
-Make it executable:
-```bash
-chmod +x smtp-sender.py
-```
 Run:
 ```bash
-./smtp-sender.py
+python3 smtp-sender.py
 ```
 ## Usage Example
 ```bash
