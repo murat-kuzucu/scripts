@@ -108,7 +108,7 @@ def main():
     try:
         colored_print("""
 ╔═══════════════════════════════════════╗
-║     SMTP Payload Sender - Pentest     ║
+║            SMTP Payload Sender
 ╚═══════════════════════════════════════╝
 """, "info")
         
