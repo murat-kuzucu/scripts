@@ -1,6 +1,7 @@
 """
 nmap -sn -PE 192.168.1.0/24 >> hosts.txt
 python3 nmap_hostscan_filtered.py hosts.txt
+nmap -Pn -sV -O -T4 -A -iL extracted_hosts.txt -oN nmap_output.txt -oX nmap_output.xml
 """
 
 import re
