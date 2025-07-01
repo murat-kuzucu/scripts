@@ -49,3 +49,13 @@ Python utilities for converting hex values from `/proc/net/tcp` to readable IP a
 
 Run script, enter/paste data, get converted output.
 
+# SSH Private Key Cleaner
+
+Cleans dumped SSH private key files by removing dummy content.
+
+## Usage
+python id-rsa-cleaner.py your_file.txt
+
+Creates `cleaned-id-rsa` with valid SSH key content only.
+
+
