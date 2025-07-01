@@ -33,3 +33,19 @@ Fake filename: security_update.exe
 SMTP Server: mail.target.com
 SMTP Port [25]: 25
 ```
+# Hex Converter for /proc/net/tcp
+
+Python utilities for converting hex values from `/proc/net/tcp` to readable IP addresses.
+
+## Files
+
+**hexconverter-for-proc-net-tcp.py**
+- Enter hex value → get IP address
+
+**dumped-proc-net-tcp.py**  
+- Paste `/proc/net/tcp` content → get formatted connections
+
+## Usage
+
+Run script, enter/paste data, get converted output.
+
