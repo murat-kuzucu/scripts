@@ -28,6 +28,7 @@ exit 0
 #
 # USAGE:
 #   ./proc-lfi-bruteforce.sh | tee process.log
+#   Filtering the output: cat process.log | grep -a '/' > filtered-process.log
 #
 # OUTPUT:
 #   - Shows process ID being tested
